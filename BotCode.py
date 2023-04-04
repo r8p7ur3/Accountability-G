@@ -4,7 +4,7 @@ from discord.ext import tasks
 
 client = discord.Client(intents=discord.Intents.all())
 
-# Set the Discord API token
+
 
 os.environ['DISCORD_TOKEN'] = 
 TOKEN = os.getenv('DISCORD_TOKEN')
